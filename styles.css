@@ -31,12 +31,12 @@ nav {
 }
 
 hr {
-  border: 2px solid #333;
+  border: 1px solid rgb(182, 182, 182);
   border-radius: 14px;
 }
 
 h3 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-size: 1.7rem;
 }
 
@@ -60,14 +60,32 @@ li {
   padding-right: 1rem;
 }
 
+li:nth-child(even) {
+  background-color: rgba(221, 221, 221, 0.324);
+  border-radius: 7px;
+}
+
 li:nth-child(odd) {
   background-color: #ddd;
+  border-radius: 7px;
 }
 
 /* Flex-box to spread text out with space-between */
 .education_item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.icon_text_container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 3.5em;
+  margin-right: 15px;
+  border-radius: 7px;
 }
 
 ul {
