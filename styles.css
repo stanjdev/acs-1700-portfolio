@@ -41,7 +41,7 @@ h3 {
 }
 
 ul {
-  list-style: circle;
+  list-style: none;
 }
 
 a {
@@ -69,6 +69,15 @@ li:nth-child(odd) {
   background-color: #ddd;
   border-radius: 7px;
 }
+
+li {
+  transition: all ease 0.2s;
+}
+
+li:hover {
+  transform: scale(1.04);
+}
+
 
 /* Flex-box to spread text out with space-between */
 .education_item {
