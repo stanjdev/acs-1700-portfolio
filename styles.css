@@ -122,8 +122,6 @@ figure {
 }
 
 figure > img {
-  height: 15rem;
-  width: 15rem;
   transition: all ease 0.2s;
   border-radius: 20px;
 }
@@ -152,5 +150,12 @@ figure > img:hover {
 @media screen and (max-width: 900px) {
   article, section, hr {
     max-width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 370px) {
+  nav {
+    flex-direction: column;
   }
 }
